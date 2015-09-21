@@ -1,0 +1,76 @@
+{
+  "cat_brands": [
+  {
+    "name": "Purrina",
+    "types": [
+      {
+          "type": "kitten",
+          "volumes": [
+            {
+            "name": "20 oz",
+            "price": 19.99
+            },
+
+            {
+            "name": "32 oz",
+            "price": 26.99
+            },
+
+            {
+            "name": "64 oz",
+            "price": 34.99
+            }
+          ]
+        },
+
+      {
+        "type": "Elite",
+        "volumes": [
+          {
+          "name": "20 oz",
+          "price": 24.99
+          },
+
+          {
+          "name": "40 oz",
+          "price": 47.99
+          }
+        ]
+      }
+    ],
+  "name": "Meow Meal",
+  "types": [
+    {
+      "type": "kitten",
+      "volumes": [
+      {
+        "name": "24 oz",
+        "price": 19.99
+      },
+
+      {
+        "name": "48 oz",
+        "price": 34.99
+      }
+      ]
+    },
+
+    {
+      "type": "Adult",
+      "volumes": [
+        {
+          "name": "28 oz",
+          "price": 22.99
+        },
+
+        {
+          "name": "56 oz",
+          "price": 40.99
+        }
+      ]
+    }
+  ]
+}
+]
+}
+
