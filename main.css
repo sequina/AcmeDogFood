@@ -1,0 +1,21 @@
+img {
+  min-width: 75%;
+  min-height: 75%;
+  border-radius: 50%;
+}
+
+.thumbnail {
+  align-content: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.output {
+  float: right;
+}
