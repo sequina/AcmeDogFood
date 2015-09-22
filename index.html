@@ -3,64 +3,59 @@
     <head>
           <link rel="stylesheet" type="text/css" href="./main.css">
           <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
     </head>
 
   <body>
     <div id = "nav">
-      <nav class="navbar navbar-default navbar-static-top">
+      <!-- <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!--<a class="navbar-brand" href="#">Logo</a>-->
-          <a class="navbar-logo" href="#" class="pull-left">
-            <!-- <img src="#" alt="image" width="200" height="50"> -->
-          </a>
+        <nav class="navbar navbar-default"> -->
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand"><img src="http://culintro.com/media/files/event/acme-logo.png">
+              </a>
+              </div>
+            </div>
+          </nav>
+
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav nav-pills">
+                <ul class="nav nav-pills nav navbar-right">
                   <li role="presentation" class="active"><a href="#">Home</a></li>
                   <li role="presentation"><a href="#">About Acme</a></li>
                   <li role="presentation"><a href="#">Contacts</a></li>
                 </ul>
-            <!-- <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Link</a></li> -->
-            </ul>
+
           </div>
         </div>
       </nav>
     </div>
 
 
-<img src="http://culintro.com/media/files/event/acme-logo.png">
+      <div id="wrapper">
 
-      <div class = "container-fluid">
-         <div class="row">
-            <div class="col-md-8">
-
-                  <a href="#"><img src="http://power-pet.com/wordpress/wp-content/uploads/2012/10/eyes-yellow-animals-dogs-labrador-retriever-wide.jpg" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;" class="img-thumbnail"></img>
+                  <a href="#"><img src="http://power-pet.com/wordpress/wp-content/uploads/2012/10/eyes-yellow-animals-dogs-labrador-retriever-wide.jpg"> <!-- style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" class="img-thumbnail"> -->
                   </a>
-                <div class="col-md-4">
-                   <a href="#"><img src="http://7-themes.com/data_images/out/36/6891698-cute-cats.jpg" style="float: right; width: 40%; margin-right: 1%; margin-bottom: 0.5em;"class="img-thumbnail"></img>
-                      </a>
-                  </div>
-              </div>
-          </div>
-      </div>
 
+                  <p align="left">Click on the image to display Dog Food</p>
+
+                   <a href="#"><img src="http://7-themes.com/data_images/out/36/6891698-cute-cats.jpg"> <!-- style="float: right; width: 30%; margin-right: 1%; margin-bottom: 0.5em;" class="img-thumbnail"> -->
+                      </a>
+                  <p align="right">Click on the image to display Cat Food</p>
+
+
+             </div>
+      <p style="clear: both;"</p>
+
+    <div class="catText">
+    </div>
 
 
 
 
     </body>
 
-    <script data-main type="javascripts/main.js" src= "lib/bower_components/requirejs/require.js"></script>
+    <script data-main type="javascripts/entry.js" src= "lib/bower_components/requirejs/require.js"></script>
   </html>
 
