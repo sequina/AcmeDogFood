@@ -1,20 +1,26 @@
-#body {
-  background-color:#CCFFCC;
-}
-#wrapper {
-  width: 50%;
-  height: auto;
+.navbar{
+  background-color: white;
 }
 
-
-.navbar.navbar-default {
-  z-index: 150;
-  margin-bottom: -50px;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+.imageHeader {
+  height: 65px;
 }
 
-.navbar,
-#main {
-  position: relative;
+img{
+height: 300px;
+}
+
+body {
+    padding-top: 90px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+#dog{
+  background-color: white;
+  display: inline-block;
+}
+
+#cat{
+  background-color: white;
+  display: block;
 }
 
