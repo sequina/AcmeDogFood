@@ -19,7 +19,7 @@ function($, bootstrap, handlebars, firebase, templates) {
         }
         console.log("dogFoodArray", dogFoodArray);
         dogFoodObject = { dog_brands: dogFoodArray };
-        console.log("dogFoodArray", dogFoodArray);
+        console.log("dogFoodObject", dogFoodObject);
     });
 
     myFirebaseRef.child("cat_brands").on("value", function(snapshot) {
@@ -31,7 +31,7 @@ function($, bootstrap, handlebars, firebase, templates) {
         }
         console.log("catFoodArray", catFoodArray);
         catFoodObject = { cat_brands: catFoodArray };
-        console.log("catFoodArray", catFoodArray);
+        console.log("catFoodObject", catFoodObject);
     });
 
     // $("#dog-pic").click(function() {
