@@ -1,0 +1,28 @@
+.navbar {
+  background-color: #E1FFE1;
+}
+
+.imageHeader {
+  height: 55px;
+  width: 75px
+}
+
+img {
+height: 300px;
+width: 500px;
+}
+
+body {
+    padding-top: 90px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background: #D6FFD6 !important;
+}
+
+#dog {
+  background-color: #D6FFD6;
+  display: inline-block;
+}
+
+#cat {
+  background-color: #D6FFD6;
+  display: block;
+}
