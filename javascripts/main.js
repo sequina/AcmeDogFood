@@ -34,12 +34,12 @@ function($, bootstrap, handlebars, firebase, templates) {
         console.log("catFoodObject", catFoodObject);
     });
 
-    // $("#dog-pic").click(function() {
-    //  // here goes template call for dog food
-    // });
+    $("#dog").click(function() {
+        $("output").htlm(templates.dogTmpl({dog_brands:dogFoodArray}));
+    });
 
-    // $("#cat-pic").click(function() {
-    //  // here goes template call for cat food
-    // });
+    $("#cat").click(function() {
+        $("output").htlm(templates.catTmpl({cat_brands:catFoodArray}));
+    });
 
 });
