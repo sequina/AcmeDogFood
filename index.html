@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <SCRIPT LANGUAGE="JavaScript">
+  <script>
     var theImages = new Array()
 theImages[0] = '/imgs/dogcat1.jpg'
 theImages[1] = '/imgs/dogcat2.jpg'
 theImages[2] = '/imgs/dogcat3.jpg'
 theImages[3] = '/imgs/dogcat4.jpg'
 
-// do not edit anything below this line
 var j = 0
 var p = theImages.length;
 var preBuffer = new Array()
@@ -49,13 +48,15 @@ document.write('<img src="'+theImages[whichImage]+'">');
           </script>
           <div class="caption">
             <h3>Acme Pet foods</h3>
-            <p>You care about your pet, even though it often doesn't return the favor. So do what you can and feed your furry friend the finest cuisene from Acme. Made from 85% ground whale and real bone marrow from unicorns, Acme gives you the best chance at getting your pet to actually give a damn about you and your sad, sad life.</p>
-            <p class ="buttons"><a href="#" class="btn btn-primary" role="button">Dog Foods</a> <a href="#" class="btn btn-default" role="button">Cat Foods</a></p>
+            <p class = "flavortext">You care about your pet, even though it often doesn't return the favor. So do what you can and feed your furry friend the finest cuisene from Acme. Made from 85% ground whale and real bone marrow from unicorns, Acme gives you the best chance at getting your pet to actually give a damn about you and your sad, sad life.</p>
+            <p class ="buttons"><a href="#" class="btn btn-primary" id="dog" role="button">Dog Foods</a> <a href="#" class="btn btn-default" id="cat" role="button">Cat Foods</a></p>
           </div>
         </div>
       </div>
+<div class="output">a</div>
     </div>
-<div class="output"><
 
  </body>
+<script data-main ="/javascripts/entry.js" src="/lib/bower_components/requirejs/require.js"></script>
+
 </html>

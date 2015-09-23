@@ -8,14 +8,13 @@ img {
   align-content: center;
 }
 
-h3 {
+h4 {
+  padding-bottom: 0%;
+}
+
+.row {
+  float: left;
   text-align: center;
 }
 
-.buttons {
-  text-align: center;
-}
 
-.output {
-  float: right;
-}
