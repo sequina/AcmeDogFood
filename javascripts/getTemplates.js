@@ -1,7 +1,6 @@
-define(["jquery"], function($) {
-    define(["hbs",
-                "hbs!../templates/dogfood",
-                "hbs!../templates/catfood"],
+define(["hbs",
+            "hbs!../templates/dogfood",
+            "hbs!../templates/catfood"],
     function(handlebars, dogTmpl, catTmpl) {
 
       return {
@@ -14,6 +13,4 @@ define(["jquery"], function($) {
           return catTmpl(fbObject);
         }
       };
-
-    });
 });
