@@ -12,6 +12,7 @@ height: 300px;
 
 body {
     padding-top: 90px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    background: navy !important;
 }
 
 #dog{
